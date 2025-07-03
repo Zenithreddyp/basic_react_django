@@ -1,0 +1,10 @@
+asgiref                             # Handles ASGI (Asynchronous Server Gateway Interface) — supports async features in Django
+Django                              # The main Django web framework
+django-cors-headers                 # Allows cross-origin requests (e.g., frontend on different domain)
+djangorestframework                 # Enables building REST APIs with Django
+djangorestframework-simplejwt       # Provides JWT authentication for DRF APIs
+PyJWT                               # Library for encoding/decoding JSON Web Tokens (used by SimpleJWT)
+pytz                                # Time zone support (used internally by Django)
+sqlparse                            # Formats SQL queries — used by Django for admin/debugging
+psycopg2-binary                     # PostgreSQL database driver for Python (used if you're using PostgreSQL)
+python-dotenv                       # Loads environment variables from a `.env` file into your Django settings

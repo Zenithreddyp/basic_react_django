@@ -1,0 +1,3 @@
+npm install axios             # For making HTTP requests (API calls)
+            react-router-dom  # For client-side routing in React (navigation between pages)
+            jwt-decode        # For decoding JWT tokens on the client (e.g. extracting user info)
